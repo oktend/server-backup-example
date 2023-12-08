@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dump-timetable"
+version = "0.1.0"
+description = ""
+authors = ["Vadim <rezvovvad@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+python-telegram-handler = {git = "git@github.com:oktend/python-telegram-handler.git", rev = "master"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
